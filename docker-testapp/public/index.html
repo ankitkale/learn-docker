@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <title>Home Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to Dummy Project! 🎓</h1>
+            <p class="subtitle">Purpose of this is to practice the docker.</p>
+        </div>
+
+        <form action="/addUser" method="POST" target="_blank" id="registrationForm">
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="your.email@university.edu" required>
+            </div>
+
+            <div class="form-group">
+                <label for="username">Full Name</label>
+                <input type="text" id="username" name="username" placeholder="John Smith" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Create Password</label>
+                <input type="password" id="password" name="password" placeholder="••••••••" required>
+            </div>
+            
+            <button type="submit" class="submit-btn">Register Account</button>
+
+            <p class="footer-note">By registering, you agree to our Terms of Service</p>
+        </form>
+
+        <div class="dev-signature">
+            Crafted with 💜 by Ankit | Full Stack Web & Python Developer
+        </div>
+    </div>
+</body>
+
+</html>
